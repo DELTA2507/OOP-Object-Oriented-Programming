@@ -1,33 +1,44 @@
-import Basics.Person;
-import Basics.Car;
+package Basics;
 
-// Anonymous Object initialization
-public static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
-void main() {
-    Person person1 = new Person("Ambersenn", "German", 45, null);
-    Person person2 = new Person("Harrison", "Luxemburgo");
+public class Main {
 
-    person1.setName("Hans Vaulsendorff");
-    person2.setNationality("Japan");
-    person2.setName("Ukyo Sanagi");
+    public static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 
-    // Another example of anonymous object initialization
-    // Instead of declaring "Class varName = new Class" it gets declared right on the spot
-    // Different from being called as a pre-existing variable
-    person1.setCar(new Car(person1.getName(), "BMW", "M3 GTR", "2005", "White Pearlescent"));
+    public static void main(String[] args) {
 
-    System.out.println("--- Person ---");
-    System.out.println("Name: " + person1.getName());
-    System.out.println("Age: " + person1.getAge());
-    System.out.println("Nationality: " + person1.getNationality());
+        Person person1 = new Person("Ambersenn", "German", 45, null);
+        Person person2 = new Person("Harrison", "Luxemburgo");
 
-    Car person1Car = person1.getCar();
-    System.out.println(
-            "\n--- Car ---" +
-            "\nOwner: " + person1Car.getOwner() +
-            "\nBrand: " + person1Car.getBrand() +
-            "\nModel: " + person1Car.getModel() +
-            "\nColor: " + person1Car.getColor()
-    );
+        person1.setName("Hans Vaulsendorff");
+        person2.setNationality("Japan");
+        person2.setName("Ukyo Sanagi");
+
+        person1.setCar(
+                new Car(
+                        person1.getName(),
+                        "BMW",
+                        "M3 GTR",
+                        "2005",
+                        "White Pearlescent"
+                )
+        );
+
+        System.out.println("--- Person ---");
+        System.out.println("Name: " + person1.getName());
+        System.out.println("Age: " + person1.getAge());
+        System.out.println("Nationality: " + person1.getNationality());
+
+        Car person1Car = person1.getCar();
+
+        System.out.println(
+                "\n--- Car ---" +
+                        "\nOwner: " + person1Car.getOwner() +
+                        "\nBrand: " + person1Car.getBrand() +
+                        "\nModel: " + person1Car.getModel() +
+                        "\nColor: " + person1Car.getColor()
+        );
+    }
 }

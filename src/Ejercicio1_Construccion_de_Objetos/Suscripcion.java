@@ -2,9 +2,9 @@ package Ejercicio1_Construccion_de_Objetos;
 
 public class Suscripcion {
     // Atributos
-    String tipo;
-    int costo;
-    String periocidad;
+    private String tipo;
+    private int costo;
+    private String periocidad;
 
     public Suscripcion(String tipo, int costo, String periocidad) {
         this.tipo = tipo;

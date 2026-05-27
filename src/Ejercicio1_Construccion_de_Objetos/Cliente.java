@@ -2,11 +2,11 @@ package Ejercicio1_Construccion_de_Objetos;
 
 public class Cliente {
     // Atributos
-    int cedula;
-    String nombre;
-    String apellidos;
-    String sexo;
-    String ubicacion;
+    private int cedula;
+    private String nombre;
+    private String apellidos;
+    private String sexo;
+    private String ubicacion;
 
     // Constructores
     public Cliente(int cedula, String nombre, String apellidos, String sexo, String ubicacion) {

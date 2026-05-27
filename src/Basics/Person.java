@@ -3,10 +3,12 @@ import Basics.Car;
 
 public class Person {
     // Attributes
-    String name;
-    String nationality;
-    int age;
-    Car car;
+    // Every attribute has to be private so they only have a scope inside the class
+    // Principle of encapsulation
+    private String name;
+    private String nationality;
+    private int age;
+    private Car car;
 
     // Methods
 

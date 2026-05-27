@@ -13,6 +13,8 @@ public class Main {
         Person person2 = new Person("Harrison", "Luxemburgo");
 
         person1.setName("Hans Vaulsendorff");
+        person1.setAge(40);
+
         person2.setNationality("Japan");
         person2.setName("Ukyo Sanagi");
 

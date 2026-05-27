@@ -65,4 +65,19 @@ public class Cliente {
     public void suscribirse(Suscripcion suscripcion) {
         System.out.println("\n" + this.nombre + " adquirió una suscripción " + suscripcion.getTipo());
     }
+
+    public boolean equals(Cliente clienteComparar) {
+        return cedula == clienteComparar.getCedula();
+    }
+
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "cedula=" + cedula +
+                ", nombre='" + nombre + '\'' +
+                ", apellidos='" + apellidos + '\'' +
+                ", sexo='" + sexo + '\'' +
+                ", ubicacion='" + ubicacion + '\'' +
+                '}';
+    }
 }

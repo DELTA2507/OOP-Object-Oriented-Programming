@@ -1,4 +1,4 @@
-package Ejercicio2_Relaciones_Objetos.Dependencia;
+package Relaciones_Objetos.Dependencia;
 
 public class Martillo {
     private final String marca;

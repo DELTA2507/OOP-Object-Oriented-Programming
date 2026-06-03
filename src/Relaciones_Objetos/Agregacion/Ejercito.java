@@ -1,4 +1,4 @@
-package Ejercicio2_Relaciones_Objetos.Agregacion;
+package Relaciones_Objetos.Agregacion;
 
 import java.util.ArrayList;
 import java.util.List;

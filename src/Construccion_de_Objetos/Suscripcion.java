@@ -1,4 +1,4 @@
-package Ejercicio1_Construccion_de_Objetos;
+package Construccion_de_Objetos;
 
 public class Suscripcion {
     // Atributos

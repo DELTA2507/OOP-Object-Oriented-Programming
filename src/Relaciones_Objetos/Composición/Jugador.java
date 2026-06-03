@@ -1,4 +1,4 @@
-package Ejercicio2_Relaciones_Objetos.Composición;
+package Relaciones_Objetos.Composición;
 
 public class Jugador {
 

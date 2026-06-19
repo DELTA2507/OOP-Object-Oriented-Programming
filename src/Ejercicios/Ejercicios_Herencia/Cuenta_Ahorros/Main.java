@@ -5,15 +5,15 @@ public class Main {
         CuentaAhorros cuenta = new CuentaAhorros(200);
 
         cuenta.retirar(50);
-        System.out.println(cuenta.getSaldo());
+        System.out.println("Saldo: " + cuenta.getSaldo());
 
         cuenta.retirar(60);
-        System.out.println(cuenta.getSaldo());
+        System.out.println("Saldo: " + cuenta.getSaldo());
 
         cuenta.retirar(100);
-        System.out.println(cuenta.getSaldo());
+        System.out.println("Saldo: " + cuenta.getSaldo());
 
         cuenta.retirar(25);
-        System.out.println(cuenta.getSaldo());
+        System.out.println("Saldo: " + cuenta.getSaldo());
     }
 }

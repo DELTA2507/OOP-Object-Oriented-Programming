@@ -1,11 +1,8 @@
-package view;
+package Ejercicios.Ejercicio_Biblioteca_Universidad.view;
 
-import exceptions.BibliotecaException;
-import model.Biblioteca;
-import model.Libro;
-import model.Material;
-import model.Revista;
-import model.Usuario;
+
+import Ejercicios.Ejercicio_Biblioteca_Universidad.exceptions.BibliotecaException;
+import Ejercicios.Ejercicio_Biblioteca_Universidad.model.*;
 import util.RegistroErrores;
 
 import java.util.Scanner;

@@ -5,8 +5,8 @@ import Ejercicios.Ejercicio_Biblioteca_Universidad.model.Biblioteca;
 import Ejercicios.Ejercicio_Biblioteca_Universidad.model.Libro;
 import Ejercicios.Ejercicio_Biblioteca_Universidad.model.Revista;
 import Ejercicios.Ejercicio_Biblioteca_Universidad.model.Usuario;
+import Ejercicios.Ejercicio_Biblioteca_Universidad.view.MenuView;
 import util.RegistroErrores;
-import view.MenuView;
 
 import java.util.Scanner;
 
